@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Wars Application</string>
+    <string name="login">Prijava</string>
+    <string name="language">Jezik</string>
+    <string name="rng_button">RNG Gumb</string>
+    <string name="enter_string">Unesi unos</string>
+    <string name="back">Nazad</string>
+    <string name="generate">Generiraj</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android Wars Application</string>
+    <string name="login">Login</string>
+    <string name="language">-</string>
+    <string name="rng_button">RNG button</string>
+    <string name="enter_string">enter string</string>
+    <string name="back">Back</string>
+    <string name="generate">Generate</string>
+</resources>
