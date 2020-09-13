@@ -32,7 +32,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginRight="30dp"
             android:layout_weight="1"
-            android:text="Generate" />
+            android:text="@string/generate" />
 
         <Button
             android:id="@+id/return_button"
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="Return" />
+            android:text="@string/back" />
 
     </LinearLayout>
 

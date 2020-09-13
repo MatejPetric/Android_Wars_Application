@@ -1,8 +1,8 @@
 package matej.petric.androidwarsapplication;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -172,5 +172,25 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         return true;
+    }
+    //Save Activity's State
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+
+        outState.putString("my_text1", language_dialog.getText().toString());
+        outState.putString("my_text2", login_button.getText().toString());
+        outState.putString("my_text3", rng_button.getText().toString());
+        outState.putString("my_text4", mEditText.getHint().toString());
+
+        super.onSaveInstanceState(outState);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        language_dialog.setText(savedInstanceState.getString("my_text1"));
+        login_button.setText(savedInstanceState.getString("my_text2"));
+        rng_button.setText(savedInstanceState.getString("my_text3"));
+        mEditText.setHint(savedInstanceState.getString("my_text4"));
     }
 }

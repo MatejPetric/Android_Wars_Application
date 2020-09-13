@@ -4,7 +4,7 @@
     <string name="login">Login</string>
     <string name="language">Language</string>
     <string name="rng_button">RNG Button</string>
-    <string name="enter_string">Enter string</string>
-    <string name="back">Enter string</string>
+    <string name="enter_string">Enter</string>
+    <string name="back">Back</string>
     <string name="generate">Generate</string>
 </resources>
